@@ -37,5 +37,5 @@ Download (or git pull) the code in pi. Run the program
 $> python TMP112.py
 ```
 
-The code output is the lux value of ambient light.
+The code output is temperature reading in degree celsius and fahrenheit.
 

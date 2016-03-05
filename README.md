@@ -1,6 +1,6 @@
 [![TMP112](TMP112_I2CS.png)](https://www.controleverything.com/content/Temperature?sku=TMP112_I2CS)
 # TMP112
-TMP112 Color Light-to-Digital Converter  
+TMP112 Temperature Sensor 
 
 The TMP112 device offers high-accuracy digital temperature measurement.
 This Device is available from ControlEverything.com [SKU:TMP112_I2CS]

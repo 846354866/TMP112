@@ -3,6 +3,7 @@
 TMP112 Temperature Sensor 
 
 The TMP112 device offers high-accuracy digital temperature measurement.
+
 This Device is available from ControlEverything.com [SKU:TMP112_I2CS]
 
 https://www.controleverything.com/content/Temperature?sku=TMP112_I2CS

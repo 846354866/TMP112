@@ -13,9 +13,9 @@ bus = smbus.SMBus(1)
 
 # TMP112 address, 0x48(72)
 # Select Configuration register, 0x01(1)
-#		0x60A0(24736)	Continous Conversion mode, 12-Bit Resolution, Fault Queue is 1 fault
-#						Polarity low, Thermostat in Comparator mode, Disables Shutdown mode
-#						Normal mode, 12-bit data
+#		0x60A0(24736)		Continous Conversion mode, 12-Bit Resolution, Fault Queue is 1 fault
+#					Polarity low, Thermostat in Comparator mode, Disables Shutdown mode
+#					Normal mode, 12-bit data
 data = [0x60A0]
 bus.write_i2c_block_data(0x48, 0x01, data)
 

@@ -10,7 +10,7 @@
 // TMP112 I2C address is 0x48(72)
 #define Addr 0x48
 
-float cTemp = 0, fTemp = 0;
+double cTemp = 0.0, fTemp = 0.0;
 void setup() 
 {
     // Set variable
@@ -67,7 +67,8 @@ void loop()
     
     // Output data to dashboard
     Particle.publish("Temperature in Celsius   : ", String(cTemp));
+    delay(1000);
     Particle.publish("Temperature in Fahrenheit: ", String(fTemp));
-    delay(800); 
+    delay(1000); 
 }
 
